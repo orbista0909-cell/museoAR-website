@@ -94,6 +94,23 @@
     text-align: center;
   }
   .about-content img { max-width: 100%; display: block; margin: 10px auto; border-radius: 6px; }
+  .scrollable {
+  max-height: 80vh;   /* adjust height */
+  overflow-y: auto;   /* enable vertical scroll */
+  padding: 10px;
+}
+
+.step {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.step img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
 
   #reader { width: 100%; max-width: 350px; margin: 20px auto; }
   #scan-result { text-align: center; margin-top: 15px; font-weight: bold; }
@@ -245,6 +262,7 @@ function qrSuccess(decodedText) {
 </body>
 
 </html>
+
 
 
 
