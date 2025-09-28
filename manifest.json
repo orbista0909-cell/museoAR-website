@@ -1,6 +1,6 @@
 {
   "name": "Museo It Akean",
-  "short_name": "Museo",
+  "short_name": "Museo It Akean",
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -13,9 +13,10 @@
       "type": "image/png"
     }
   ],
-  "start_url": "index (1).html",
+  "start_url": "https://orbista0909-cell.github.io/museoAR-website/index%20(1).html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000"
 
 }
+
